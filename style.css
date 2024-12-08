@@ -1,0 +1,109 @@
+body {
+    background-image: url("imagenes/FONDO.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', Times New Roman;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0057ba; /* Blue color */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex; /* Use flexbox to align logo and navigation */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and navigation */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-picture {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.profile-picture img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-info {
+    padding: 2rem;
+    text-align: center;
+}
+
+.image-containers {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.image-container {
+    background-color: #268bff; /* Blue background */
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 26%;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.image-container p {
+    margin-top: 1rem;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.button {
+    background-color: #004080; 
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.demo-reel {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.demo-reel video {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    max-width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 1rem; /* Add spacing between logo and navigation */
+}
