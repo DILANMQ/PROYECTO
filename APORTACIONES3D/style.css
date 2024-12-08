@@ -1,0 +1,73 @@
+body {
+    background-image: url("FONDO2.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', Times New Roman;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0748b0; /* Blue color */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.container-item {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+
+.aportaciones {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem; /* Add margin to the bottom */
+}
+
+.aportaciones h2 {
+    color: #fff; /* White color */
+}
+
+.demo-reel {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.demo-reel video {
+    max-width: 100%;
+    height: auto;
+}
